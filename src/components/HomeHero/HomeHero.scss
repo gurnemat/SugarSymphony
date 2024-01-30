@@ -1,0 +1,48 @@
+.home-hero {
+    position: relative;
+    z-index: -1;
+    color: white;
+
+    &__content {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 70px;
+            font-style: italic;
+            font-family: cursive;
+
+        }
+
+        a {
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 15px 20px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-style: italic;
+            font-family: cursive;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
