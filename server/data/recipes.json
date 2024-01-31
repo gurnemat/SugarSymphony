@@ -1,0 +1,66 @@
+[
+  {
+    "recipeID": 1,
+    "title": "Classic Chocolate Cake",
+    "description": "A rich and moist chocolate cake",
+    "author": "baker123",
+    "date": "2024-01-30T12:00:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/63db28e47c45c38a08c3875e/1:1/w_1920%2Cc_limit/sponge-cake.jpg"
+  },
+  {
+    "recipeID": 2,
+    "title": "Vanilla Cupcakes",
+    "description": "Light and fluffy vanilla cupcakes",
+    "author": "sweet_tooth",
+    "date": "2024-01-30T11:30:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/57acca2b53e63daf11a4da03/1:1/w_1920%2Cc_limit/bas-best-molten-chocolate-cake.jpg"
+  },
+  {
+    "recipeID": 3,
+    "title": "Red Velvet Cake",
+    "description": "A classic red velvet cake with cream cheese frosting",
+    "author": "cakelover",
+    "date": "2024-01-30T10:45:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/6228c6754fefeeda72129a4f/1:1/w_1920%2Cc_limit/BA0422cake01.jpg"
+  },
+  {
+    "recipeID": 4,
+    "title": "Lemon Blueberry Muffins",
+    "description": "Delicious muffins with a burst of lemon and blueberry flavors",
+    "author": "lemonade_fan",
+    "date": "2024-01-30T09:15:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/63db34617d3b2da7813c533b/1:1/w_1920%2Cc_limit/pbj-dome-cake.jpg"
+  },
+  {
+    "recipeID": 5,
+    "title": "Mango Curd Cake",
+    "description": "Delicious muffins with a burst of lemon and blueberry flavors",
+    "author": "lemonade_fan",
+    "date": "2024-01-30T09:15:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/5b9972e91ad6f7505fd20246/1:1/w_1920%2Cc_limit/vanilla-layer-cake-with-mango-curd-slice.jpg"
+  },
+  {
+    "recipeID": 6,
+    "title": "Strawberry Shortcake",
+    "description": "Layers of sponge cake, fresh strawberries, and whipped cream",
+    "author": "berry_bliss",
+    "date": "2024-01-30T08:30:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/63db28e39e56df5916fcbfdd/1:1/w_1920%2Cc_limit/confetti-cake.jpg"
+  },
+  {
+    "recipeID": 7,
+    "title": "Any Berry Lemon Ricotta Cake",
+    "description": "Layers of sponge cake, fresh strawberries, and whipped cream",
+    "author": "berry_bliss",
+    "date": "2024-01-30T08:30:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/6298bdc5e7e2994240d10fe5/1:1/w_1920%2Cc_limit/0602-any-berry-ricotta-cake-lede.jpg"
+  },
+  {
+    "recipeID": 8,
+    "title": "Chocolate Cake",
+    "description": "Layers of sponge cake, fresh strawberries, and whipped cream",
+    "author": "berry_bliss",
+    "date": "2024-01-30T08:30:00Z",
+    "imageUrl": "https://assets.bonappetit.com/photos/57ad269af1c801a1038bc9da/1:1/w_1920%2Cc_limit/chocolate-rye-crumb-cake.jpg"
+  }
+]
