@@ -1,3 +1,63 @@
+# Project Title
+
+SugarSymphony
+
+## Overview
+
+Sugar Symphony is a web application designed for baking enthusiasts and anyone with a sweet tooth who is looking for delicious cake recipes. The app provides a curated collection of cake recipes, allowing users to explore and indulge in the world of delightful desserts.
+
+### Problem
+
+Finding the perfect cake recipe with the right balance of sweetness and flavor can be a challenge for baking enthusiasts. Many people often spend a considerable amount of time searching for recipes on various platforms, and the lack of a centralized resource for quality cake recipes makes the process time-consuming and inefficient.
+
+### Features
+
+- **Recipe Collection:** Access a diverse range of cake recipes, from classic favorites to innovative creations.
+- **Baking Tips:** Discover helpful tips and tricks for successful cake baking.
+- **Search Functionality:** Easily search for specific recipes or ingredients.
+- **Submit Recipe:** Users can submit their favorite cake recipes with their name and email address.
+
+## Implementation
+
+### Tech Stack
+
+- React
+- MySQL
+- Express
+- Client libraries:
+  - react
+  - react-router
+  - axios
+- Server libraries:
+  - knex
+  - express
+
+### Sitemap
+
+- Home page
+- Recipe collection
+- Recipe details
+- Submit recipe
+
+### Endpoints
+
+**GET /cakes**
+
+- Get a list of cake recipes.
+
+Response:
+
+```json
+[
+    {
+        "id": 1,
+        "name": "Chocolate Symphony Cake",
+        "description": "A rich and decadent chocolate cake that will make your taste buds dance...",
+        "rating": 4.9,
+        "calories": 300
+    },
+    ...
+]
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
