@@ -1,6 +1,6 @@
 import "./Footer.scss";
-import FooterEqn from "../../assets/logo/footer-eqn.webp";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons";
+import footerEqn from "../../assets/logo/footer-eqn.webp";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,8 +10,33 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer__links">
           <a href="/">Menus</a>
+          <a href="/"> Write a recipe</a>
+        </div>
+        <div className="footer__social">
+          <ul>
+            <li>
+              <a href="/">
+                <FaFacebook />
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <FaTwitter />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="footer__copyright">
+          <p>& copy: 2024 cake recipe app</p>
         </div>
       </footer>
     </div>
   );
 };
+
+export default Footer;

@@ -1,17 +1,28 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import Header from "./components/Header/Header";
-import { IoHome } from "react-icons/io5";
-import HomeHero from "./components/HomeHero/HomeHero";
-import RecipeCollection from "./components/RecipeCollection/RecipeCollection";
+import Home from "./pages/Home/Home";
+import RecipeDetails from "./pages/RecipeDetails/RecipeDetails";
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
+
+const AppLayout = () => (
+  <div>
+    <Outlet />
+    <Footer />
+  </div>
+);
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <HomeHero />
-      <RecipeCollection />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<AppLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/:recipeId" element={<RecipeDetails />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
