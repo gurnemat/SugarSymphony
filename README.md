@@ -2,6 +2,17 @@
 
 SugarSymphony
 
+## Quick Overview
+
+```sh
+npx create-react-app my-app
+cd my-app
+npm start
+
+cd server
+npm start
+```
+
 ## Overview
 
 Sugar Symphony is a web application designed for baking enthusiasts and anyone with a sweet tooth who is looking for delicious cake recipes. The app provides a curated collection of cake recipes, allowing users to explore and indulge in the world of delightful desserts.
@@ -47,7 +58,7 @@ Finding the perfect cake recipe with the right balance of sweetness and flavor c
 
 Response:
 
-```json
+````json
 [
     {
         "id": 1,
@@ -61,6 +72,18 @@ Response:
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## Quick Overview
+
+```sh
+npx create-react-app my-app
+cd my-app
+npm start
+
+cd server
+npm start
+````
 
 ## Available Scripts
 
@@ -128,3 +151,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+```
+
+```

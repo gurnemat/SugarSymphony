@@ -21,7 +21,7 @@ const Header = () => {
     <header className={headerClasses}>
       <div className="header__content">
         <div className="header__logo">
-          <img src={logo} alt="LOGO" />
+          {/* <img src={logo} alt="LOGO" /> */}
         </div>
         <div className="header__actions">
           <button>

@@ -26,9 +26,7 @@ const RecipeDetails = () => {
       <header className="recipe-details-header">
         <div className="recipe-details-header__content">
           <div className="recipe-details-header__logo">
-            <Link to="/">
-              <img src={logo} alt="LOGO" />
-            </Link>
+            <Link to="/">{/* <img src={logo} alt="LOGO" /> */}</Link>
           </div>
           <div className="recipe-details-header__actions">
             <button>
@@ -47,22 +45,57 @@ const RecipeDetails = () => {
           <img src={recipe.imageUrl} alt="" />
 
           <div className="recipe-details__content__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            pellentesque nibh enim, quis euismod enim lacinia nec. Phasellus
-            quam diam, semper in erat eu, efficitur molestie purus. Sed a
-            elementum mi. Sed interdum mattis risus, sit amet eleifend ligula
-            luctus ut. Sed ullamcorper lorem aliquam, tincidunt lorem et,
-            ultrices est. Suspendisse eleifend dui odio, id volutpat quam
-            iaculis eu. Nunc sit amet scelerisque mauris. Phasellus volutpat
-            mauris ac sem tincidunt, in fringilla arcu ultrices. Phasellus
-            scelerisque eros vel pulvinar gravida. Aenean suscipit felis orci,
-            sed egestas libero dignissim at. Sed commodo malesuada ligula, nec
-            vehicula risus fermentum sed. Integer pretium posuere est. Ut
-            interdum mollis ipsum, ac vehicula nisl laoreet et. Curabitur ac
-            ipsum aliquam, varius purus at, lobortis purus. Maecenas quis sem
-            dapibus, volutpat odio non, mattis dui. Nam eget urna nec mi tempor
-            mollis vel nec felis. Cras tellus est, malesuada at leo vitae,
-            lacinia pellentesque eros. Donec accumsan tincidunt velit.
+            <h2>Ingredients:</h2>
+            <ul>
+              <li>2 cups all-purpose flour</li>
+              <li>1 3/4 cups granulated sugar</li>
+              <li>3/4 cup unsweetened cocoa powder</li>
+              <li>1 1/2 teaspoons baking powder</li>
+              <li>1 1/2 teaspoons baking soda</li>
+              <li>1 teaspoon salt</li>
+              <li>2 large eggs</li>
+              <li>1 cup whole milk</li>
+              <li>1/2 cup vegetable oil</li>
+              <li>2 teaspoons pure vanilla extract</li>
+              <li>1 cup boiling water</li>
+            </ul>
+            <section>
+              <h2>Instructions:</h2>
+              <ol>
+                <li>
+                  Preheat the oven to 350°F (175°C). Grease and flour two 9-inch
+                  round cake pans.
+                </li>
+                <li>
+                  In a large bowl, sift together flour, sugar, cocoa powder,
+                  baking powder, baking soda, and salt.
+                </li>
+                <li>
+                  Add eggs, milk, oil, and vanilla extract. Beat on medium speed
+                  for 2 minutes.
+                </li>
+                <li>
+                  Stir in boiling water until the batter is well combined (the
+                  batter will be thin).
+                </li>
+                <li>Pour the batter evenly into the prepared pans.</li>
+                <li>
+                  Bake for 30 to 35 minutes, or until a toothpick inserted into
+                  the center comes out clean.
+                </li>
+                <li>
+                  Allow the cakes to cool in the pans for 10 minutes, then
+                  transfer to a wire rack to cool completely.
+                </li>
+              </ol>
+            </section>
+            <section>
+              <h2>Decoration (Optional):</h2>
+              <p>
+                You can frost the cake with your favorite chocolate frosting and
+                decorate with sprinkles or chocolate shavings.
+              </p>
+            </section>
           </div>
         </div>
         <div className="recipe-details__recipesList">

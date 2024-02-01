@@ -3,7 +3,7 @@
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px 0;
-    background: rgb(238, 144, 144);
+    background: rgb(236, 168, 168);
 
     &__content {
         width: 90%;
@@ -11,12 +11,13 @@
         align-items: center;
         justify-content: space-between;
         margin: 0 auto;
+
     }
 
     &__logo {
         img {
-            height: 50px;
-            width: 50px;
+            height: 60px;
+            width: 80px;
         }
     }
 
@@ -28,9 +29,10 @@
             margin: 0 5px;
             background: none;
             border: none;
-            font-size: 20px;
+            font-size: 40px;
             cursor: pointer;
-            color: white;
+            color: rgb(238, 225, 220);
+            ;
         }
     }
 }
@@ -47,8 +49,11 @@
         text-align: center;
         margin: 15px 0;
         text-transform: uppercase;
-        font-weight: normal;
-        font-size: 16px;
+        font-weight: 800%;
+        font-size: 20px;
+        font-family: cursive;
+        color: #96174a;
+
     }
 
     &__content {
@@ -58,10 +63,15 @@
         align-items: center;
         padding: 0 20px;
 
+
+        h2 {
+            font-family: cursive;
+        }
+
         &__description {
             margin: 20px 0;
             font-size: 14px;
-            color: gray;
+            color: rgb(24, 23, 23);
         }
 
         img {

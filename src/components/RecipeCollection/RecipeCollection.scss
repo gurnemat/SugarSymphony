@@ -3,7 +3,8 @@
         text-align: center;
         margin: 2rem 0;
         font-family: cursive;
-        color: rgb(212, 57, 119);
+        color: rgb(150, 23, 74);
+        font-size: 2.7rem;
     }
 
     &__recipes {
@@ -12,6 +13,7 @@
         flex-wrap: wrap;
         width: 80%;
         margin: 0 auto;
+        font-family: cursive;
 
         &__card {
             margin: 20px;
@@ -21,9 +23,12 @@
             justify-content: space-between;
             align-items: start;
 
+
             &__image {
                 width: 100%;
                 overflow: hidden;
+                border: 2px solid #96174a;
+                border-radius: 14px;
 
                 img {
                     width: 100%;
@@ -41,18 +46,23 @@
                 flex-direction: column;
                 align-items: flex-start;
 
+
             }
 
             p {
                 margin: 10px 0;
+
+
             }
 
             a {
-                background: black;
+                background: #5f293f;
+                ;
                 color: white;
                 padding: 10px 20px;
                 text-decoration: none;
                 margin-top: 20px;
+                border-radius: 8px;
             }
 
         }
