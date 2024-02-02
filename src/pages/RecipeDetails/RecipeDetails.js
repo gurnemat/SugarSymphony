@@ -28,6 +28,10 @@ const RecipeDetails = () => {
           <div className="recipe-details-header__logo">
             <Link to="/">{/* <img src={logo} alt="LOGO" /> */}</Link>
           </div>
+          <div className="logo">
+            <span className="logo__s1">S</span>
+            <span className="logo__s2">S</span>
+          </div>
           <div className="recipe-details-header__actions">
             <button>
               <IoSearch />

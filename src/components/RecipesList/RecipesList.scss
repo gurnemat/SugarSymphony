@@ -3,6 +3,8 @@
     padding: 15px;
 
     &__recipes {
+        color: rgb(63, 13, 13);
+
         &__card {
             width: 100%;
             display: flex;
@@ -34,7 +36,7 @@
 
                 a {
                     text-decoration: none;
-                    color: black;
+                    color: rgb(73, 18, 18);
                     border-bottom: 2px solid;
                     padding-bottom: 4px;
                 }

@@ -9,8 +9,8 @@ const Footer = () => {
 
       <footer className="footer">
         <div className="footer__links">
-          <a href="/">Menus</a>
-          <a href="/"> Write a recipe</a>
+          <a href="/">Menu's</a>
+          <a href="/">Subscribe for Newsletter</a>
         </div>
         <div className="footer__social">
           <ul>
