@@ -14,10 +14,11 @@
 
     }
 
-    .logo {
+    &__logo {
         display: flex;
-        width: 100%;
         font-size: 300%;
+        margin-right: auto;
+        text-decoration: none;
 
 
         &__s1 {

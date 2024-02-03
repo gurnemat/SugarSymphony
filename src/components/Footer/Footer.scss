@@ -22,13 +22,18 @@
     &__links {
         margin-bottom: 40px;
 
-        a {
+        a,
+        button {
             text-decoration: none;
-            color: rgb(35, 17, 17);
+            color: gainsboro;
             text-transform: uppercase;
-            margin: 50px 50px;
-            font-family: cursive;
-            font-weight: 600;
+            margin: 10px 10px;
+            background: transparent;
+            border: none;
+            font-size: 16px;
+
+
+
 
 
 
@@ -65,4 +70,46 @@
             margin: 35px 0;
         }
     }
+}
+
+.Modal {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: white;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.closeBtn {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 30px;
+    width: 30px;
+    background: white;
+    color: black;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }

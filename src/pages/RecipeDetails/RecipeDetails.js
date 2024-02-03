@@ -19,19 +19,16 @@ const RecipeDetails = () => {
       setRecipe(response.data);
     };
     fetchData();
-  }, [params.reciepeId]);
+  }, [params.recipeId]);
 
   return (
     <>
       <header className="recipe-details-header">
         <div className="recipe-details-header__content">
-          <div className="recipe-details-header__logo">
-            <Link to="/">{/* <img src={logo} alt="LOGO" /> */}</Link>
-          </div>
-          <div className="logo">
-            <span className="logo__s1">S</span>
-            <span className="logo__s2">S</span>
-          </div>
+          <Link to="/" className="recipe-details-header__logo">
+            <span className="recipe-details-header__logo__s1">S</span>
+            <span className="recipe-details-header__logo__s2">S</span>
+          </Link>
           <div className="recipe-details-header__actions">
             <button>
               <IoSearch />

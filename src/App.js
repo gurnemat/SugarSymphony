@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import RecipeDetails from "./pages/RecipeDetails/RecipeDetails";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
+import Recipes from "./pages/Recipes/Recipes";
 
 const AppLayout = () => (
   <div>
@@ -20,6 +21,7 @@ function App() {
         <Route element={<AppLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/:recipeId" element={<RecipeDetails />} />
+          <Route path="/recipes" element={<Recipes />} />
         </Route>
       </Routes>
     </BrowserRouter>
