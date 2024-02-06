@@ -2,17 +2,21 @@
     display: flex;
     justify-content: center;
 
+
+
     input {
         height: 30px;
         margin-right: 10px;
         padding: 0 10px;
+        border-radius: 8px;
     }
 
     button {
         padding: 0 20px;
-        background: black;
+        background: rgb(85, 26, 26);
         color: white;
         text-transform: uppercase;
         cursor: pointer;
+        border-radius: 8px;
     }
 }
