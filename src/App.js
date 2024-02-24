@@ -6,6 +6,7 @@ import RecipeDetails from "./pages/RecipeDetails/RecipeDetails";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Recipes from "./pages/Recipes/Recipes";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 const AppLayout = () => (
   <div>
@@ -17,6 +18,7 @@ const AppLayout = () => (
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<Home />} />

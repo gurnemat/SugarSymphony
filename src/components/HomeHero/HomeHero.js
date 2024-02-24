@@ -8,7 +8,7 @@ const HomeHero = () => {
       <img src={CakeImage} alt="" />
       <div className="home-hero__content">
         <h1>SugarSymphony</h1>
-        <a href="/">recipes</a>
+        {/* <a href="/">recipes</a> */}
       </div>
     </div>
   );
